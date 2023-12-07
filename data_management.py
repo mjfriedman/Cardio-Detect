@@ -1,3 +1,6 @@
+import pandas as pd
+
+
 class DataManager:
     def __init__(self, x_train, y_train, x_val, y_val, num_classes, data_path):
         self.x_train = x_train
@@ -13,7 +16,6 @@ class DataManager:
         Input : Chemin du fichier de données.
         Output : DataFrame des données.
         """
-        #  À FAIRE : Utilisez pandas pour lire le fichier et retournez le DataFrame.
 
     def split_data(self, test_size=0.2, random_state=42):
         """
