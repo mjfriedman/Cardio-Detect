@@ -4,7 +4,7 @@ Bienvenue dans le dépôt du projet de session IFT712 dédié à l'analyse et à
 
 ## Auteurs
 - **Ivan Junior Ngoudjo** - [https://github.com/Ivanovitchs]
-- **Abdou Rahime Daouda** - [https://github.com/daoa2504]
+- **Abdou Rahime Daouda** - [https://github.com/daoa2504 || https://github.com/AbdouRahimeDaouda]
 - **M. J. Friedman Couthon** - [https://github.com/mjfriedman]
 
 ## Objectif du Projet
