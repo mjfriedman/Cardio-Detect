@@ -1,6 +1,6 @@
 # Analyse et Prédiction de maladies cardiaques
 
-Bienvenue dans le dépôt du projet de session IFT712 dédié à l'analyse et à la prédiction des crises cardiaques.
+Bienvenue dans le dépôt du projet de session IFT712 dédié à l'analyse et à la prédiction de présence de maladies cardiaques.
 
 ## Auteurs
 - **Ivan Junior Ngoudjo** - [https://github.com/Ivanovitchs]
