@@ -126,7 +126,7 @@ class Visualization:
         plt.ylabel('Vraie valeur')
         plt.title('Matrice de confusion')
         plt.show()
-    
+
 
     def plot_distribution_hue(self, variable, hue, is_numeric):
         """
@@ -158,24 +158,24 @@ class Visualization:
 
 
     def plot_boxplot(self, variables, y):
-       """
-        Affiche les boxplots des variables spécifiées dans un subplot.
-
-        Input :
-        - variables : Liste d'indices des variables à visualiser.
-        - y : nom de la variable en abscisse (variable par rapport à laquelle on visualise le boxplot)
-
-        Output : Boxplots des variables spécifiées.
         """
-       num_cols = len(variables) if variables else len(self.data.columns)
-       num_rows = (num_cols // 3) + (num_cols % 3)  # Calcul du nombre de lignes en fonction du nombre de colonnes
-       plt.figure(figsize=(15, 5 * num_rows))
-       if variables:
-            columns_to_plot = [self.data.columns[i] for i in variables]
-       else:
-        columns_to_plot = self.data.columns
+         Affiche les boxplots des variables spécifiées dans un subplot.
 
-       for i, col in enumerate(columns_to_plot, 1):
+         Input :
+         - variables : Liste d'indices des variables à visualiser.
+         - y : nom de la variable en abscisse (variable par rapport à laquelle on visualise le boxplot)
+
+         Output : Boxplots des variables spécifiées.
+         """
+        num_cols = len(variables) if variables else len(self.data.columns)
+        num_rows = (num_cols // 3) + (num_cols % 3)  # Calcul du nombre de lignes en fonction du nombre de colonnes
+        plt.figure(figsize=(15, 5 * num_rows))
+        if variables:
+            columns_to_plot = [self.data.columns[i] for i in variables]
+        else:
+            columns_to_plot = self.data.columns
+
+        for i, col in enumerate(columns_to_plot, 1):
             plt.subplot(num_rows, 3, i)
             sns.boxplot(data=self.data, x=y, y=col, hue=y)
             plt.title(f"Boxplot de {col}")
@@ -183,8 +183,8 @@ class Visualization:
             plt.ylabel(col)
             plt.tight_layout()
 
-       # Afficher le graphique
-       plt.show()
+        # Afficher le graphique
+        plt.show()
        
 
 
