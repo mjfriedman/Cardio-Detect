@@ -1,4 +1,4 @@
-# Analyse et Prédiction des Crises Cardiaques
+# Analyse et Prédiction de maladies cardiaques
 
 Bienvenue dans le dépôt du projet de session IFT712 dédié à l'analyse et à la prédiction des crises cardiaques.
 
