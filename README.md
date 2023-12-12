@@ -3,7 +3,7 @@
 Bienvenue dans le dépôt du projet de session IFT712 dédié à l'analyse et à la prédiction des crises cardiaques.
 
 ## Auteurs
-- **Ivan Junior Ngoudjo** - []
+- **Ivan Junior Ngoudjo** - [https://github.com/Ivanovitchs]
 - **Abdou Rahime Daouda** - [https://github.com/daoa2504]
 - **M. J. Friedman Couthon** - [https://github.com/mjfriedman]
 
