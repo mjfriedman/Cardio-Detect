@@ -1,3 +1,7 @@
+Maintenance in progress for the project...
+
+<!--
+
 # Analyse et Prédiction de maladies cardiaques
 
 Bienvenue dans le dépôt du projet de session IFT712 dédié à l'analyse et à la prédiction de présence de maladies cardiaques.
@@ -18,5 +22,5 @@ Ce projet a pour objectif d'explorer et d'analyser des données liées aux crise
 ## Instructions d'Exécution
 1. Clônez ce dépôt sur votre machine locale.
 2. Exécutez les notebooks d'analyse dans l'ordre numérique.
-3. Explorez les résultats et les modèles de prédiction.
-
+3. Explorez les résultats et les modèles de prédiction. 
+-->
